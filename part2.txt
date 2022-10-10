@@ -1,4 +1,3 @@
-passphrases:
 1. greenEggsAndHam
 2. IHateCplusplus
 3. HTMLRocks
