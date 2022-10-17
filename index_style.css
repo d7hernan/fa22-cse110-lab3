@@ -1,0 +1,107 @@
+/* editing the body color */
+
+@media (width: 20px) {
+    body {
+        background-color: rgb(0, 0, 0);
+    }
+}
+
+button:hover {
+    color: rgb(9, 34, 177);
+  }
+
+  button:active {
+    color: rgb(254, 254, 254);
+  }
+
+html {
+    font-size: 10px;
+  }
+  
+  .ems li {
+    font-size: 3cm;
+  }  
+
+body {
+    background-color: rgb(13, 181, 237);
+    font-size: 6ex; 
+  }
+  
+/* editing header color */
+  h1 {  
+    color: #7dfff4;
+    margin-left: 20px;
+    font-size: 0.5in; 
+    text-align: center;
+    position: sticky;
+    top: 20px; 
+    font-family: 'Kanit', sans-serif
+  }
+
+  h3 {
+    font-size: 4lh; 
+  }
+
+/* for use later */
+.box {
+    background-color: #000006;
+    font-size: 10vw;
+    height: 450px; 
+    max-width: 80%;
+}
+
+.box span {
+    background-color: #29097b;
+    display:flexbox; 
+    text-align: center; 
+    width:30%;
+    grid-area: header; 
+}
+
+.alt {
+    background-color: #6f6fe9;
+    font-size: 3vw;
+    margin: 0%;
+    margin-top: 1%;
+    font-family: 'Kanit', sans-serif
+}
+
+.alt2 {
+    background-color: #01010348;
+    font-size: 3vw;
+    margin: auto; 
+    padding: 5%; 
+    padding-top: 10%; 
+    text-decoration-line:underline;  
+    display:block; 
+    min-width: 20%;
+    position: relative;
+    bottom: 70px; 
+    display:flex;
+}
+
+/* boxing styles */ 
+
+.block,
+li {
+  display: center; 
+  border: 5px solid rgba(36, 4, 246, 0.333);
+  padding: .5em;
+  border-bottom: rgb(34, 4, 165);
+  border-radius: 10%;
+  font-style: oblique 2deg; 
+  width: 200px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+.October9th2022 {
+    grid-area: header;
+}
+
+.links {
+    grid-template-columns: 3fr 100px 3fr 3fr;
+}

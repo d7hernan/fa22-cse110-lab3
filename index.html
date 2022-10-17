@@ -1,29 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&display=swap" rel="stylesheet">
     <title> Group 29 Meeting Minutes </title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="https://conceptdraw.com/a1706c3/p3/preview/640/pict--business-meeting-business-people-clipart---vector-stencils-library.png--diagram-flowchart-example.png" />
     <link rel="stylesheet" href="index_style.css">  
   </head>
-
+  <style>
+    h3 {
+      color: orange; 
+    }
+  </style>
   <body>
   <header>
-      <h1> Group 29 Meeting Minutes </h1>
-      <img
+    <div class = "box">
+      <h1> Group 29 <span> Meeting Minutes</span> </h1>
+      <img 
         src="https://images.unsplash.com/photo-1552581234-26160f608093?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
         alt="meeting"
-        width="500"
+        width="400"
       />
+    </div>
 
-      <h2> Welcome! </h2>
+      <h2 style="color: hsl(236, 100%, 23%)"> Welcome! </h2>
       <audio controls>
         <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3" type="audio/mp3">
       Your browser does not support the audio element.
       </audio>
       <section>
-        <div> Hyperlinks to <strong>meeting dates: </strong></div>
+        <div class = links> Hyperlinks to <strong>meeting dates: </strong></div>
         <nav>
           <ul>
             <li><a href="#October9th,2022">October 9, 2022</a></li>
@@ -138,21 +147,22 @@
         <button>Submit</button>
       </form>
     </fieldset>
-    
-    <form onsubmit="alert('Submitted')">
-      <label> Choose your favorite snack: </label>
-      <br>
+    <div class = "box alt">
+      <form id = "hi", onsubmit="alert('Submitted')">
+        <label> Choose your favorite snack: </label>
+        <br>
 
-      <input type="checkbox" id="chips" name="chips" value="chips">
-      <label for="chips"> chips</label><br>
-      <input type="checkbox" id="candy" name="candy" value="candy">
-      <label for="candy"> candy</label><br>
-      <input type="checkbox" id="icecream" name="icecream" value="icecream">
-      <label for="icecream"> ice cream</label><br>
+        <input type="checkbox" id="chips" name="chips" value="chips">
+        <label for="chips"> chips</label><br>
+        <input type="checkbox" id="candy" name="candy" value="candy">
+        <label for="candy"> candy</label><br>
+        <input type="checkbox" id="icecream" name="icecream" value="icecream">
+        <label for="icecream"> ice cream</label><br>
 
 
-      <button>Submit</button>
-    </form>
+        <button>Submit</button>
+      </form>
+    </div>
     <br>
     <form onsubmit="alert('Thanks for your personal information')">
       actually let's just get your entire birthday
@@ -161,6 +171,7 @@
     </form>
     <br>
 
+    <div class = "box alt2">
     <label>not-a-robot check: what is 1+3? </label>
 
     <select name="nums" id="nums">
@@ -169,8 +180,10 @@
       <option value="3">3</option>
       <option value="4">4</option>
     </select>
+    </div>
     <br>
     <br>
+    <div class = "container">
     <form onsubmit="alert('Submitted')">
       <label> One more thing: What year are you?  </label>
       <br>
@@ -186,10 +199,10 @@
       <input type="radio" id="5" name="year" value="FIFTHPLUS">
       <label for="icecream"> 5th or longer</label><br>
 
-      
 
       <button>Submit</button>
     </form>
+    </div>
 
     <br />
     <div>&copy; <b> Daniel Hernandez at https://github.com/d7hernan/Lab2_Starter_Forked  </b> </div>
