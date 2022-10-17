@@ -1,4 +1,17 @@
 /* editing the body color */
+p {
+  color:rgb(255, 255, 14)
+}
+
+h1:hover {
+  color:rgb(255, 254, 245); 
+}
+
+* {
+  size-adjust: 4;
+}
+
+
 
 @media (width: 20px) {
     body {
@@ -83,7 +96,7 @@ body {
 /* boxing styles */ 
 
 .block,
-li {
+li, ol {
   display: center; 
   border: 5px solid rgba(36, 4, 246, 0.333);
   padding: .5em;
@@ -96,6 +109,26 @@ li {
 ul {
   display: flex;
   list-style: none;
+}
+
+li > h1 {
+  font-size: 10pc;
+}
+
+h3 p {
+  font-size: 5px;
+}
+
+article ~ article {
+  font-size: 8px;
+}
+
+.alt + .alt2 {
+  font-size: 8px;
+}
+
+p.head {
+  font-size: 20px;
 }
 
 .October9th2022 {
